@@ -52,7 +52,7 @@ public class MonCompile {
             Path filePath = Paths.get("").toAbsolutePath();
             File source = new File(filePath.toString()+"\\"+className+".java");
 
-            // Lieu de sortie des dichiers crée par le compilateur
+            // Lieu de sortie des fichiers crée par le compilateur
             Path parent = Paths.get("").toAbsolutePath().getParent();
             File target =  new File(parent.toString()+"\\v3\\"+className+".java");
             File targetClient = new File(parent.toString()+"\\v3\\"+className+"Client.java");
